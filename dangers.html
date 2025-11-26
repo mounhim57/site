@@ -8,28 +8,77 @@
 </head>
 <body>
   <header>
-    <h1>Dangers du Web</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="about.html">À propos</a></li>
-        <li><a href="dangers.html" class="active">Dangers du Web</a></li>
-        <li><a href="conseils.html">Conseils</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1>Dangers du Web</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="about.html">À propos</a></li>
+          <li><a href="dangers.html" class="active">Dangers du Web</a></li>
+          <li><a href="conseils.html">Conseils</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <section class="content">
     <h2>Les principales menaces</h2>
     <p>Le Web moderne présente de nombreux dangers. Les utilisateurs doivent être conscients des risques potentiels et apprendre à s’en protéger.</p>
-    <ul>
-      <li><strong>Phishing :</strong> Faux e-mails ou sites web imitant des services légitimes pour voler vos identifiants ou vos données personnelles.</li>
-      <li><strong>Virus et malwares :</strong> Logiciels malveillants pouvant endommager vos appareils, voler des données ou espionner vos activités.</li>
-      <li><strong>Vol de données :</strong> Piratage de comptes en ligne, fuite d’informations sensibles, usurpation d’identité.</li>
-      <li><strong>Arnaques en ligne :</strong> Offres frauduleuses, fausses promotions, escroqueries financières ou manipulations psychologiques.</li>
-      <li><strong>Ransomwares :</strong> Logiciels qui bloquent vos fichiers et demandent une rançon pour les récupérer.</li>
-      <li><strong>Spywares :</strong> Programmes qui surveillent votre navigation ou vos communications sans votre consentement.</li>
-    </ul>
+    <div class="threats-grid">
+      <article class="threat-card">
+        <h3>Phishing</h3>
+        <p>Faux e-mails ou sites web imitant des services légitimes pour voler vos identifiants ou vos données personnelles.</p>
+        <ul class="exemples">
+          <li>Exemple : e-mail prétendant venir de votre banque demandant de « vérifier » vos identifiants via un lien.</li>
+          <li>Exemple : site copiant l'apparence d'un service (URL légèrement modifiée, ex. examp1e.com au lieu de example.com).</li>
+        </ul>
+      </article>
+
+      <article class="threat-card">
+        <h3>Virus et malwares</h3>
+        <p>Logiciels malveillants pouvant endommager vos appareils, voler des données ou espionner vos activités.</p>
+        <ul class="exemples">
+          <li>Exemple : programme gratuit téléchargé d'un site non fiable qui installe un cheval de Troie.</li>
+          <li>Exemple : pièce jointe .exe reçue par e-mail qui infecte l'ordinateur à l'ouverture.</li>
+        </ul>
+      </article>
+
+      <article class="threat-card">
+        <h3>Vol de données</h3>
+        <p>Piratage de comptes en ligne, fuite d’informations sensibles, usurpation d’identité.</p>
+        <ul class="exemples">
+          <li>Exemple : fuite de mots de passe depuis une base de données compromise.</li>
+          <li>Exemple : accès non autorisé à un e-mail permettant de réinitialiser d'autres comptes.</li>
+        </ul>
+      </article>
+
+      <article class="threat-card">
+        <h3>Arnaques en ligne</h3>
+        <p>Offres frauduleuses, fausses promotions, escroqueries financières ou manipulations psychologiques.</p>
+        <ul class="exemples">
+          <li>Exemple : fausse boutique en ligne qui prend l'argent sans livrer le produit.</li>
+          <li>Exemple : arnaque « amour en ligne » demandant de l'argent sous de faux prétextes.</li>
+        </ul>
+      </article>
+
+      <article class="threat-card">
+        <h3>Ransomwares</h3>
+        <p>Logiciels qui bloquent vos fichiers et demandent une rançon pour les récupérer.</p>
+        <ul class="exemples">
+          <li>Exemple : fichiers chiffrés et message demandant un paiement en crypto-monnaie.</li>
+          <li>Exemple : propagation sur un réseau d'entreprise rendant les services indisponibles.</li>
+        </ul>
+      </article>
+
+      <article class="threat-card">
+        <h3>Spywares</h3>
+        <p>Programmes qui surveillent votre navigation ou vos communications sans votre consentement.</p>
+        <ul class="exemples">
+          <li>Exemple : extension de navigateur malveillante collectant habitudes et mots de passe.</li>
+          <li>Exemple : application mobile qui enregistre vos messages et les transmet à un tiers.</li>
+        </ul>
+      </article>
+    </div>
 
     <h2>Conséquences possibles</h2>
     <p>Les conséquences d’une mauvaise protection sont multiples :</p>
